@@ -1,0 +1,47 @@
+$size: 100px;
+$days-week: (mon: 1, tue: 2, wed: 3, thu: 4, fri: 5, sat: 6, sun: 7);
+@mixin hover {
+    div:hover {
+        background-color: #f5c4cc;
+        transform: translate(0, -50px);
+    }
+}
+// настройки блока календаря
+.calendar {
+    display: grid;
+    grid-template: repeat(5, $size) / repeat(7, $size);
+    margin: 100px 300px;
+    grid-gap: 2px;
+    @include hover;
+// настройки ячеек 
+    div {
+        cursor: pointer;
+        position: relative;
+        border: 1px solid #000;
+        background-color: #efefef;
+        transition: up 0.7s;
+    }
+}
+// номера елементов 
+@for $i from 1 to 32 {
+    .calendar div:nth-child(#{$i}):after {
+        content: "#{$i}";
+        position: absolute;
+        color: #000;
+        right: 40px;
+        top: 40px;
+        font-size: 20px;
+    }
+}
+// определяет calendar-30
+@for $num from 28 to 31 {
+  .calendar-#{$num} div:nth-child(#{$num}) ~ div {
+    display: none;
+  }
+}
+// определяет calendar-tue
+@each $day, $var in $days-week {
+    .calendar-#{$day} div:first-child {
+      grid-column-start: #{$var};
+    }
+  }
