@@ -1,0 +1,338 @@
+.calendar {
+  display: grid;
+  grid-template: repeat(5, 100px)/repeat(7, 100px);
+  margin: 100px 300px;
+  grid-gap: 2px;
+}
+.calendar div:hover {
+  background-color: #f5c4cc;
+  transform: translate(0, -50px);
+}
+.calendar div {
+  cursor: pointer;
+  position: relative;
+  border: 1px solid #000;
+  background-color: #efefef;
+  transition: up 0.7s;
+}
+
+.calendar div:nth-child(1):after {
+  content: "1";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(2):after {
+  content: "2";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(3):after {
+  content: "3";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(4):after {
+  content: "4";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(5):after {
+  content: "5";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(6):after {
+  content: "6";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(7):after {
+  content: "7";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(8):after {
+  content: "8";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(9):after {
+  content: "9";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(10):after {
+  content: "10";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(11):after {
+  content: "11";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(12):after {
+  content: "12";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(13):after {
+  content: "13";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(14):after {
+  content: "14";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(15):after {
+  content: "15";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(16):after {
+  content: "16";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(17):after {
+  content: "17";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(18):after {
+  content: "18";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(19):after {
+  content: "19";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(20):after {
+  content: "20";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(21):after {
+  content: "21";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(22):after {
+  content: "22";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(23):after {
+  content: "23";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(24):after {
+  content: "24";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(25):after {
+  content: "25";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(26):after {
+  content: "26";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(27):after {
+  content: "27";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(28):after {
+  content: "28";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(29):after {
+  content: "29";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(30):after {
+  content: "30";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar div:nth-child(31):after {
+  content: "31";
+  position: absolute;
+  color: #000;
+  right: 40px;
+  top: 40px;
+  font-size: 20px;
+}
+
+.calendar-28 div:nth-child(28) ~ div {
+  display: none;
+}
+
+.calendar-29 div:nth-child(29) ~ div {
+  display: none;
+}
+
+.calendar-30 div:nth-child(30) ~ div {
+  display: none;
+}
+
+.calendar-mon div:first-child {
+  grid-column-start: 1;
+}
+
+.calendar-tue div:first-child {
+  grid-column-start: 2;
+}
+
+.calendar-wed div:first-child {
+  grid-column-start: 3;
+}
+
+.calendar-thu div:first-child {
+  grid-column-start: 4;
+}
+
+.calendar-fri div:first-child {
+  grid-column-start: 5;
+}
+
+.calendar-sat div:first-child {
+  grid-column-start: 6;
+}
+
+.calendar-sun div:first-child {
+  grid-column-start: 7;
+}
+
+/*# sourceMappingURL=styles.css.map */
